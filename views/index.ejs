@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Cat Facts</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form method="POST" action="/submit">
+      <label>First Name:</label>
+      <input type="text" name="firstName" /><br /><br />
 
-  <h1>Cat Facts</h1>
+      <label>Last Name:</label>
+      <input type="text" name="lastName" /><br /><br />
 
-  <ul>
-    <li>Cats have five toes on their front paws, but only four toes on their back paws.</li>
-    <li>A group of cats is called a clowder.</li>
-    <li>Cats can rotate their ears 180 degrees.</li>
-    <li>The average cat sleeps 12-16 hours per day.</li>
-    <li>A cat's nose print is unique, much like a human's fingerprint.</li>
-  </ul>
+      <label>Email:</label>
+      <input type="email" name="email" /><br /><br />
 
-</body>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
